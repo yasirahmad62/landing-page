@@ -83,7 +83,7 @@ a{
 
 }
 span:hover{
-  color: #48CFAD;
+  color: #9200F3;
   transition: all .5s;
 }
 .name{
@@ -95,7 +95,9 @@ span .m-left{
 .text p{
   letter-spacing: 3px;
   word-spacing: 10px;
-  font-size: .8rem;
+  font-size: 1rem;
+  margin-top: 10px;
+
 }
 .text a{
   padding: 12px 25px;
@@ -132,7 +134,7 @@ span .m-left{
   width: 450px;
   margin-top: 100px;
   margin-right: 200px;
-  opacity: .199;
+  opacity:;
 }
 .about{
   height: 100vh;
@@ -142,7 +144,7 @@ span .m-left{
 .work h1{
   font-size: 10rem;
   z-index: 0;
-  opacity: .1;
+  opacity: .3;
 }
 .about-me-info{
   max-width: 900px;
@@ -175,11 +177,15 @@ span .m-left{
 .skills{
   height: 100vh;
 }
-.skills h1,
-.contact h1{
+.skills h1{
   text-align: right;
   font-size: 10rem;
-  opacity: .1;
+  opacity: 0.3;
+}
+.contact h1{
+  text-align: left;
+  font-size: 10rem;
+  opacity: .3;
 }
 .skills-info{
   font-size: 1.44rem;
@@ -250,7 +256,7 @@ form textarea{
 
 }
 form input::after{
-  border: 2px solid #9200F3;  
+  border: 2px solid #9200F3;
 }
 form input:last-child{
   width: 150px;
@@ -275,8 +281,7 @@ footer p{
 }
 .sab{
   color:#fff;
-
 }
-.life{
-  text-decoration: underline;
+.para{
+  font-size: 1rem;
 }
