@@ -285,3 +285,6 @@ footer p{
 .para{
   font-size: 1rem;
 }
+li:hover{
+  color: pink;
+}
